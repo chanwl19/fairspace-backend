@@ -7,7 +7,7 @@
     "dev": "nodemon app.js",
     "start": "node app.js",
     "start:dev": "nodemon app.js",
-    "build": "netlify-lambda build express"
+    "build": "netlify-lambda build"
   },
   "author": "",
   "license": "ISC",
