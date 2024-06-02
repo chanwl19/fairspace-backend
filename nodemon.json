@@ -1,0 +1,7 @@
+{
+    "env" : {
+        "DB_PASSWORD" : "password",
+        "DB_USER" : "COMP214_M24_zou_7",
+        "CONNECTION_STRING" : "199.212.26.208:1521/SQLD"
+    }
+}

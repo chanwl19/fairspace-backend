@@ -1,0 +1,129 @@
+POST https://3000-idx-fairspace-backend-1717031833201.cluster-joak5ukfbnbyqspg4tewa33d24.cloudworkstations.dev/login
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiaWR4LWZhaXJzcGFjZS1iYWNrZW5kLTE3MTcwMzE4MzMyMDEuY2x1c3Rlci1qb2FrNXVrZmJuYnlxc3BnNHRld2EzM2QyNC5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3MTcyOTkzNTEsImV4cCI6MTcxNzMwMjk1MX0.YogfSXNfUG8j_SIuXe3TsivEXxFAl6aLPZfZjFTfMqg5-Zc6XhFTf7LtjhNoDp-3-cSUiXzAeySyyUZAeOxQnOnkKFXZUeDDjTzvRNVIlqer0j9wF_R75txH5oWb-rupdGJOvZMQ7Cir7ho5rM5g6jkaYtmBXjGnAYxlQa8iJ_v_Q-3qHzfecKh4ym6PtoOHWAee0G1UXrkZYfGKf_AMK1B0qeikzvkvm_pTawa8F23TYk001b9IPj7PyrpU7qAbvQuHQkUy23v8upxoJ4cUOPH3owZtto4tMiyMiY-NV4pBbjGw0zGjdOlUiHvtutrOVnYOWFx2iyV6wKRPcWVJcw
+Content-Type: application/json
+
+{
+    "userName":"301325509",
+    "password":"1234"
+}
+
+# POST https://3000-idx-fairspace-backend-1717031833201.cluster-joak5ukfbnbyqspg4tewa33d24.cloudworkstations.dev/admin/create-user
+# Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiaWR4LWZhaXJzcGFjZS1iYWNrZW5kLTE3MTcwMzE4MzMyMDEuY2x1c3Rlci1qb2FrNXVrZmJuYnlxc3BnNHRld2EzM2QyNC5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3MTcxMDE2MzQsImV4cCI6MTcxNzEwNTIzNH0.N4TUDeLEafoxF7ApjDlCluTSnoJ6OJSWRVcgciBW8zZbg6GVby07tbtoIy-U0sqsrRAz9sY7xngaHmBdQ6IX3prAv4fGbIURC24ezRuC2AcMxwiB7acVVJTrNqQ88Tw1fSLI2XrkS2eT0fj9eMQ3Gk5P7hNVFTOxv4y_u0jRcmIX6pKiA2E7YukP2kxieWekFeik8kwQuMBCTgWvgt_8SvmX2usnkQCNDn8lUgnyv3mE-dg_7Lq_RjchZaUbjekw7fTDzoDww5THT51S-jkkAeHL_BMguwTrKj_X2JSYgBOHSlZ1GETk7hRBxoW0ARhbErVGEIxoBpEMe2FLa-vNYA
+# Content-Type: application/json
+
+# {
+#     "user": {
+#         "userName": "301329609",
+#         "password": "1234",
+#         "userEmail": "wchan194@my.centennialcollege.ca",
+#         "isAdmin": false,
+#         "isAuthUser": false,
+#         "isManagement": false,
+#         "isItSupport": true
+#     }
+# }
+
+
+# POST https://3000-idx-fairspace-backend-1717031833201.cluster-joak5ukfbnbyqspg4tewa33d24.cloudworkstations.dev/admin/add-facility
+# Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiaWR4LWZhaXJzcGFjZS1iYWNrZW5kLTE3MTcwMzE4MzMyMDEuY2x1c3Rlci1qb2FrNXVrZmJuYnlxc3BnNHRld2EzM2QyNC5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3MTcxMjAzMjYsImV4cCI6MTcxNzEyMzkyNn0.FDF0MjjfCDJIjNikJRdwZmdAx91feW24ju7BS9GEco5tjHKoOX6npJ8ulc4XI8O7ZsFTp199afys07YD6BMm2cTEVGq8mqMnsaMTz0GSv2NdK3mhzI1sFUUrummIgo95g6mEzY70oumLNDwX3D-xi3xUVJKmqT1kn3g2_cDMaDkh79UJwhTET6r8gYAIFK49gfGe21IX43HGb-iLuKVvEA_s1oHiSYSYZkZswcmdCOio0bmE1d7J7BH-F-Cp4bystMo3zgEdGH0OiW3N_kq3lr5ZbbgFtV3hOk7i3YormsgekX64tj5NIbSZqJR_ptewAQsRIReemLuxhueuX1KkWw
+# Content-Type: application/json
+
+# {
+#     "facility": {
+#         "facilityType": "D",
+#         "facilityLoc": "A03",
+#         "seatNum": "001",
+#         "roomNum": "23",
+#         "facilityCap": null,
+#         "computerQty": 1, 
+#         "screenQty" :2, 
+#         "phoneQty" :1, 
+#         "projectorQty" :2, 
+#         "printerQty" :0, 
+#         "scannerQty" :1, 
+#         "whiteboardQty" : 1
+#     }
+# }
+
+# POST https://3000-idx-fairspace-backend-1717031833201.cluster-joak5ukfbnbyqspg4tewa33d24.cloudworkstations.dev/admin/modify-facility
+# Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiaWR4LWZhaXJzcGFjZS1iYWNrZW5kLTE3MTcwMzE4MzMyMDEuY2x1c3Rlci1qb2FrNXVrZmJuYnlxc3BnNHRld2EzM2QyNC5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3MTcxMjAzMjYsImV4cCI6MTcxNzEyMzkyNn0.FDF0MjjfCDJIjNikJRdwZmdAx91feW24ju7BS9GEco5tjHKoOX6npJ8ulc4XI8O7ZsFTp199afys07YD6BMm2cTEVGq8mqMnsaMTz0GSv2NdK3mhzI1sFUUrummIgo95g6mEzY70oumLNDwX3D-xi3xUVJKmqT1kn3g2_cDMaDkh79UJwhTET6r8gYAIFK49gfGe21IX43HGb-iLuKVvEA_s1oHiSYSYZkZswcmdCOio0bmE1d7J7BH-F-Cp4bystMo3zgEdGH0OiW3N_kq3lr5ZbbgFtV3hOk7i3YormsgekX64tj5NIbSZqJR_ptewAQsRIReemLuxhueuX1KkWw
+# Content-Type: application/json
+
+# {
+#     "facility": {
+#         "facilityId": "A04-00006",
+#         "facilityType": "R",
+#         "facilityLoc": "A04",
+#         "seatNum": "001",
+#         "roomNum": "23",
+#         "facilityCap": null,
+#         "computerQty": 2, 
+#         "screenQty" :2, 
+#         "phoneQty" :1, 
+#         "projectorQty" :2, 
+#         "printerQty" :0, 
+#         "scannerQty" :1, 
+#         "whiteboardQty" : 1
+#     }
+# }
+
+
+# POST https://3000-idx-fairspace-backend-1717031833201.cluster-joak5ukfbnbyqspg4tewa33d24.cloudworkstations.dev/admin/delete-facility
+# Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiaWR4LWZhaXJzcGFjZS1iYWNrZW5kLTE3MTcwMzE4MzMyMDEuY2x1c3Rlci1qb2FrNXVrZmJuYnlxc3BnNHRld2EzM2QyNC5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3MTcxMjAzMjYsImV4cCI6MTcxNzEyMzkyNn0.FDF0MjjfCDJIjNikJRdwZmdAx91feW24ju7BS9GEco5tjHKoOX6npJ8ulc4XI8O7ZsFTp199afys07YD6BMm2cTEVGq8mqMnsaMTz0GSv2NdK3mhzI1sFUUrummIgo95g6mEzY70oumLNDwX3D-xi3xUVJKmqT1kn3g2_cDMaDkh79UJwhTET6r8gYAIFK49gfGe21IX43HGb-iLuKVvEA_s1oHiSYSYZkZswcmdCOio0bmE1d7J7BH-F-Cp4bystMo3zgEdGH0OiW3N_kq3lr5ZbbgFtV3hOk7i3YormsgekX64tj5NIbSZqJR_ptewAQsRIReemLuxhueuX1KkWw
+# Content-Type: application/json
+
+# {
+#     "facility": {
+#         "facilityId": "A04-00006"
+#     }
+# }
+
+# GET https://3000-idx-fairspace-backend-1717031833201.cluster-joak5ukfbnbyqspg4tewa33d24.cloudworkstations.dev/admin/get-facilities
+# Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiaWR4LWZhaXJzcGFjZS1iYWNrZW5kLTE3MTcwMzE4MzMyMDEuY2x1c3Rlci1qb2FrNXVrZmJuYnlxc3BnNHRld2EzM2QyNC5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3MTcxMjAzMjYsImV4cCI6MTcxNzEyMzkyNn0.FDF0MjjfCDJIjNikJRdwZmdAx91feW24ju7BS9GEco5tjHKoOX6npJ8ulc4XI8O7ZsFTp199afys07YD6BMm2cTEVGq8mqMnsaMTz0GSv2NdK3mhzI1sFUUrummIgo95g6mEzY70oumLNDwX3D-xi3xUVJKmqT1kn3g2_cDMaDkh79UJwhTET6r8gYAIFK49gfGe21IX43HGb-iLuKVvEA_s1oHiSYSYZkZswcmdCOio0bmE1d7J7BH-F-Cp4bystMo3zgEdGH0OiW3N_kq3lr5ZbbgFtV3hOk7i3YormsgekX64tj5NIbSZqJR_ptewAQsRIReemLuxhueuX1KkWw
+# Content-Type: application/json
+
+# POST 3000-idx-fairspace-backend-1717031833201.cluster-joak5ukfbnbyqspg4tewa33d24.cloudworkstations.dev/reservation/reserve
+# Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiaWR4LWZhaXJzcGFjZS1iYWNrZW5kLTE3MTcwMzE4MzMyMDEuY2x1c3Rlci1qb2FrNXVrZmJuYnlxc3BnNHRld2EzM2QyNC5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3MTcxODMwNzgsImV4cCI6MTcxNzE4NjY3N30.AxVhpCU-ktKLnqgRR-oOr1m7V2Tj5b1Y3L5VdDOTt7OnjIVYPZD-HjOB1wFT_I4ifQi3i1jwvH-9qyWmRRskKC9MPKj3JuzRw1PJHnY0kvySPwHFls8LCGuYS9DPf5f7nA4mkoH3Jn5gdPYgNe-aI6CHYc6EW84zxylnoPpIQExe26J5UP9wXVcAaUy-06BDlygXtGMXVqO6SxF-DA6vK2gR3qPO-YIo7gRQBozLjm3pFh77FM0IlGntuQjmhQNuXrHQQGSHUDD6i_BmNpbn6vWj5WuyXPHvoGasKFApC8JXz-GfYVHeNwg23eSfuJost9WkJHQkrXiBDaRh8DqbuA
+# Content-Type: application/json
+
+# {
+#      "reservation": {
+#             "userId" : "301325510",
+#             "facilityId": "A04-00007",
+#             "startTime" : "2024-06-11T10:30:00Z", 
+#             "endTime" : "2024-06-11T21:30:00Z", 
+#             "resStatus" : "R", 
+#             "addComment" : "test"
+#      },
+#      "timeFormat" : "yyyy-mm-dd\"T\"hh24:mi:ss\"Z\""
+# }
+
+# POST 3000-idx-fairspace-backend-1717031833201.cluster-joak5ukfbnbyqspg4tewa33d24.cloudworkstations.dev/reservation/get-reservations
+# Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiaWR4LWZhaXJzcGFjZS1iYWNrZW5kLTE3MTcwMzE4MzMyMDEuY2x1c3Rlci1qb2FrNXVrZmJuYnlxc3BnNHRld2EzM2QyNC5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3MTcxOTk4NjcsImV4cCI6MTcxNzIwMzQ2N30.bBf8hCWXLpBJDxECPjtDCn4yIc3RLgHMkbueZ_ftdNdA2RkzMQ3a9ZfrkMe-ksk43vJ4dYwoaarCu1reTyW29YwC10sFgmIfUcX7Mx5RKM4cx7cqrOXTLzjg4ltXJ_uTMW4vj36pTSYtg-PTGT5S1VNmMQGdBMrYSe9LeKPMgjorspU8RKQv4sabQiFI9I5rln8sJ_W8hCj6ZMsN3wluiEBGcf95xOIpRNUzH1oGczaIIdu9Mbe_vpjy3vLzg0f1_XDdzWEJ916uxeoQQF4u8zbySImIuUf3sjPGg1TmYnQDOeOkofNSZeOV-56phxrURjphkix_GHwe4mfCSydQCA
+# Content-Type: application/json
+
+# {
+#      "reservation": {
+#             "facilityId" : "A04-00007",
+#             "endTime" : "2024-06-12T10:30:00Z"
+#             //"userId" : "301325509"
+#      },
+#      "timeFormat" : "yyyy-mm-dd\"T\"hh24:mi:ss\"Z\""
+# }
+
+# POST 3000-idx-fairspace-backend-1717031833201.cluster-joak5ukfbnbyqspg4tewa33d24.cloudworkstations.dev/reservation/modify-reservation
+# Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vd29ya3N0YXRpb25zIiwiYXVkIjoiaWR4LWZhaXJzcGFjZS1iYWNrZW5kLTE3MTcwMzE4MzMyMDEuY2x1c3Rlci1qb2FrNXVrZmJuYnlxc3BnNHRld2EzM2QyNC5jbG91ZHdvcmtzdGF0aW9ucy5kZXYiLCJpYXQiOjE3MTcxOTk4NjcsImV4cCI6MTcxNzIwMzQ2N30.bBf8hCWXLpBJDxECPjtDCn4yIc3RLgHMkbueZ_ftdNdA2RkzMQ3a9ZfrkMe-ksk43vJ4dYwoaarCu1reTyW29YwC10sFgmIfUcX7Mx5RKM4cx7cqrOXTLzjg4ltXJ_uTMW4vj36pTSYtg-PTGT5S1VNmMQGdBMrYSe9LeKPMgjorspU8RKQv4sabQiFI9I5rln8sJ_W8hCj6ZMsN3wluiEBGcf95xOIpRNUzH1oGczaIIdu9Mbe_vpjy3vLzg0f1_XDdzWEJ916uxeoQQF4u8zbySImIuUf3sjPGg1TmYnQDOeOkofNSZeOV-56phxrURjphkix_GHwe4mfCSydQCA
+# Content-Type: application/json
+
+# {
+#      "reservation": {
+#             "reserveId" : 5,
+#             "userId" : "301325510",
+#             "facilityId": "A04-00008",
+#             "startTime" : "2024-06-12T10:30:00Z", 
+#             "endTime" : "2024-06-10T21:30:00Z", 
+#             "resStatus" : "C", 
+#             "addComment" : "test1"
+#      },
+#      "timeFormat" : "yyyy-mm-dd\"T\"hh24:mi:ss\"Z\""
+# }
