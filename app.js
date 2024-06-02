@@ -42,8 +42,9 @@ app.user('/test', function(req,res) {
 })
 app.use(errorController.get404);
 
-app.listen(port, () => {
-   console.log(`Listening on http://localhost:${port}`);
-})
+// app.listen(port, () => {
+//    console.log(`Listening on http://localhost:${port}`);
+// })
 
 module.exports = app;
+module.exports.handler = serverless(app);

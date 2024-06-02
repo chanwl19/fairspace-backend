@@ -2,12 +2,12 @@
   "name": "myapp",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "functions/app.js",
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",
     "start:dev": "nodemon app.js",
-    "vercel-build":"echo hello"
+    "build":"netlify-lambda build express"
   },
   "author": "",
   "license": "ISC",
