@@ -33,14 +33,15 @@ app.use(function (req, res, next) {
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use('/.netlify/functions/api/login', loginRoutes);
-app.use('/.netlify/functions/api/facility', facilityRoutes);
-app.use('/.netlify/functions/api/user',userRoutes);
-app.use('/.netlify/functions/api/reservation', reservationRoutes);
+app.use('/login', loginRoutes);
+app.use('/facility', facilityRoutes);
+app.use('/user',userRoutes);
+app.use('/reservation', reservationRoutes);
 
 app.use(errorController.get404);
 
-module.exports.handler = serverless(app);
-// app.listen(port, () => {
-//    console.log(`Listening on http://localhost:${port}`);
-// })
+app.listen(port, () => {
+   console.log(`Listening on http://localhost:${port}`);
+})
+
+module.exports = app;
