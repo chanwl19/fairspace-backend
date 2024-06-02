@@ -37,7 +37,9 @@ app.use('/login', loginRoutes);
 app.use('/facility', facilityRoutes);
 app.use('/user',userRoutes);
 app.use('/reservation', reservationRoutes);
-
+app.user('/test', function(req,res) {
+   res.status(201).send({returnMessage: "Test successful"});
+})
 app.use(errorController.get404);
 
 app.listen(port, () => {
